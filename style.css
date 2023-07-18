@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Effra Regular';
+    src: url('Effra Regular/Effra\ Regular.ttf') format('truetype');
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
+}
+
+div{
+    display: block;
+}
+
+body {
+    height: 100%;
+    font-size: 1em;
+    font-family: Effra Regular, Helvetica, Arial, sans-serif;
+    color: #3c3c3c;
+}
+
+.fixed{
+    width: 100%;
+}
+
+.page-content {
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    background-color: #FFFFFF;
+}
+
+.page-content>.main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+
+#navigation {
+    height: 65px;
+    text-align: center;
+    margin: 0;
+}
+
+.resize #navigation { 
+    height: 30px; 
+}
+
+#navigation a {
+    display: inline-block;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 17px;
+    text-decoration: none;
+    color: #777777;
+}
+
+#navigation a:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 1em;
+}
+
+.resize #navigation a { 
+    height: 30px; 
+    line-height: 30px; 
+    font-size: 0.9em; 
+}
+			
+
+/* CONTENT */
+#intro {
+    padding: 45px 0 0;
+    height: 380px;
+    text-align: center;
+}
+
+#intro img {
+    display: inline-block;
+    margin: 0 0 35px;
+    width: 170px;
+    height: 170px;
+    border-radius: 85px;
+}
+
+/* MAIN CONTENT */
+
+#content {
+    padding: 50px 0 50px;
+}
+
+.page-content .main {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.main h2{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    color: #3c3c3c;
+  }
